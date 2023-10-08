@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TO DO LIST</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="container">
+    <div class="todo-app">
+       <h2>TO DO LIST    <img src="https://img.freepik.com/free-icon/verification-delivery-list-clipboard-symbol_318-61556.jpg" width=5% ></h2>
+       <p style="padding: 20px;"><b>Please list your tasks here</b></p>
+       <div class="row">
+        <input type="text" id="input-box" placeholder="Add a text" >
+        <button onclick="addTask()">ADD</button>
+       
+       </div>
+       <ul id="list-container">
+      
+    </div>
+    <div class="task-stats">
+      <div class="tasks-count">
+        <ran>Tasks </ran><span id="taskCount">0</span>
+      </div>
+      
+    </div>
+ </div>
+ <script src="script.js"></script>   
+</body>
+</html>
